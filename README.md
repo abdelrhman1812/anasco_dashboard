@@ -48,6 +48,7 @@ Inside the `src` folder:
 
 ## Screenshot
 
-![image](./public/dashboard.png)
+![image](./public/dashboard_screen.png)
+
 
 
