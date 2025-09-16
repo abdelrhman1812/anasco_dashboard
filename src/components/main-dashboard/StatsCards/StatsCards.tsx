@@ -7,7 +7,7 @@ import { StatItem } from "@/types/statsCardT";
 
 const StatsCards = () => {
   return (
-    <section className="flex-1 p-4 lg:p-6">
+    <>
       {/* Header */}
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-xl px-2 py-2 lg:text-2xl font-semibold text-gray-900">
@@ -29,7 +29,7 @@ const StatsCards = () => {
             <CardContent className="p-6">
               <div className="flex items-center justify-between gap-2">
                 <div>
-                  <p className="text-sm font-medium text-gray-700 mb-1">
+                  <p className=" font-medium text-gray-700 text-xl mb-1">
                     {item.title}
                   </p>
                   <p className="text-2xl lg:text-3xl font-bold text-gray-900">
@@ -53,7 +53,7 @@ const StatsCards = () => {
           </Card>
         ))}
       </div>
-    </section>
+    </>
   );
 };
 
