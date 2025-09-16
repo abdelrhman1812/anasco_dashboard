@@ -4,7 +4,7 @@ import Charts from "@/components/main-dashboard/charts/Charts";
 const Dashboard = () => {
   return (
     <>
-      <section className="flex-1 p-4 lg:p-6">
+      <section className=" p-4 lg:p-6">
         <StatsCards />
         <Charts />
       </section>

@@ -2,7 +2,6 @@ import React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const TrafficByWebsite = () => {
-  // Data Array
   const trafficData = [
     { name: "Google", value: 80, color: "bg-blue-500" },
     { name: "YouTube", value: 65, color: "bg-red-500" },

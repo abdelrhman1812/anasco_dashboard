@@ -36,7 +36,7 @@ export default function RootLayout({
           <SidebarProvider>
             <DashboardSidebar />
 
-            <main className="flex-1 w-full p-4 overflow-y-auto">
+            <main className="flex-1 w-full p-4 overflow-hidden">
               <TopNav />
               {children}
             </main>

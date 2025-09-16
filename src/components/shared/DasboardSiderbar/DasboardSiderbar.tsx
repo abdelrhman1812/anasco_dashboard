@@ -68,7 +68,7 @@ export default function DashboardSidebar() {
   };
 
   return (
-    <Sidebar className="hidden border-r md:block">
+    <Sidebar className="hidden border-r md:block" id="main-sidebar">
       <SidebarHeader className="px-4 py-4">
         {/* Logo */}
         <SidebarMenu>
@@ -91,12 +91,11 @@ export default function DashboardSidebar() {
         </SidebarMenu>
 
         {/* Shortcuts */}
-
         <Shortcuts />
       </SidebarHeader>
 
       <SidebarContent className="px-3">
-        {/* Dashboard Group */}
+        {/* ====================================== Dashboard  ====================================== */}
         <SidebarGroup className="mb-3">
           <SidebarGroupLabel className="px-2 text-sm font-medium text-gray-500 uppercase tracking-wider mb-2">
             Dashboard
@@ -129,7 +128,7 @@ export default function DashboardSidebar() {
           </SidebarGroupContent>
         </SidebarGroup>
 
-        {/* Pages Group */}
+        {/* ====================================== Pages ====================================== */}
         <SidebarGroup className="mb-6">
           <SidebarGroupLabel className="px-2 text-sm font-medium text-gray-500 uppercase tracking-wider mb-2">
             Pages
