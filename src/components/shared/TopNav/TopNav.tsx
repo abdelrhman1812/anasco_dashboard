@@ -3,10 +3,12 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Star, Search, Settings, Bell } from "lucide-react";
 import { SidebarTrigger } from "@/components/ui/sidebar";
+import ThemeToggle from "./ThemeToggle";
+import { useTheme } from "next-themes";
 
 const TopNav = () => {
   return (
-    <div className="flex items-center justify-between w-full px-4 py-2 border-b bg-white">
+    <div className="flex items-center justify-between w-full px-4 py-2 border-b">
       {/* Left side (nav buttons) */}
 
       <nav className="hidden md:flex items-center space-x-1">
@@ -36,6 +38,8 @@ const TopNav = () => {
             ⌘K
           </kbd>
         </div>
+
+        <ThemeToggle />
 
         {/* Mobile search button */}
         <Button variant="ghost" size="sm" className="sm:hidden">

@@ -5,7 +5,7 @@ const Shortcuts = () => {
 
   return (
     <>
-      <div className="flex gap-2  mt-3 bg-white rounded-lg ">
+      <div className="flex gap-2  mt-3  rounded-lg ">
         <button
           className={`flex items-center gap-2 opacity-50 font-semibold px-3 py-2 text-sm rounded-md flex-1 justify-center ${
             activeTab === "favorites" ? "" : "text-gray-500 hover:bg-gray-100"

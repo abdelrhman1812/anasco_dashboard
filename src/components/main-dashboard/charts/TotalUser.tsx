@@ -22,7 +22,7 @@ const buttonsState = [
 
 const TotalUser = () => {
   return (
-    <Card className="xl:col-span-2 bg-[#F7F9FB] border-none ">
+    <Card className="xl:col-span-2 border-none ">
       {/* Header */}
       <CardHeader className="pb-4">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between space-y-4 sm:space-y-0">

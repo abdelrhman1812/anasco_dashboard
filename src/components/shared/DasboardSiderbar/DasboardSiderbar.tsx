@@ -68,12 +68,12 @@ export default function DashboardSidebar() {
   };
 
   return (
-    <Sidebar className="hidden border-r md:block bg-slate-50">
+    <Sidebar className="hidden border-r md:block">
       <SidebarHeader className="px-4 py-4">
         {/* Logo */}
         <SidebarMenu>
           <SidebarMenuItem>
-            <SidebarMenuButton size="lg" asChild className="bg-white ">
+            <SidebarMenuButton size="lg" asChild className=" ">
               <Link href="/" className="flex items-center gap-3">
                 <div className="p-1 bg-blue-100 rounded-lg">
                   <Image
@@ -112,7 +112,7 @@ export default function DashboardSidebar() {
                         href={item.url}
                         className={`${
                           item.url === "/"
-                            ? " bg-gray-100 border-l-4 rounded-e-2xl border-black rounded-none"
+                            ? " bg-gray-100 border-l-4 text-black rounded-e-2xl border-black rounded-none"
                             : ""
                         } flex items-center gap-2`}
                       >

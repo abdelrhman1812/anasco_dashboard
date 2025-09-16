@@ -16,7 +16,7 @@ import { traficByDeviceData } from "@/mock-data/chartData";
 
 export const TrafficByDevice = () => {
   return (
-    <Card className="bg-[#F7F9FB] border-none ">
+    <Card className=" border-none ">
       <CardHeader>
         <CardTitle className="text-base lg:text-lg">
           Traffic by Device

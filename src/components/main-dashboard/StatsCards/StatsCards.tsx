@@ -10,9 +10,7 @@ const StatsCards = () => {
     <>
       {/* Header */}
       <div className="flex items-center justify-between mb-6">
-        <h1 className="text-xl px-2 py-2 lg:text-2xl font-semibold text-gray-900">
-          Today
-        </h1>
+        <h1 className="text-xl px-2  lg:text-2xl font-semibold ">Today</h1>
       </div>
 
       {/* statsData Cards */}

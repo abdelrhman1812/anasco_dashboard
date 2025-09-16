@@ -7,7 +7,7 @@ import { traficByLocationData } from "@/mock-data/chartData";
 
 const TrafficByLocations = () => {
   return (
-    <Card className="bg-[#F7F9FB] border-none ">
+    <Card className=" border-none ">
       <CardHeader>
         <CardTitle className="text-base lg:text-lg">
           Traffic by Location
@@ -36,7 +36,7 @@ const TrafficByLocations = () => {
           </ResponsiveContainer>
         </div>
 
-        <div className="space-y-2 flex-1">
+        <div className="space-y-3 flex-1">
           {traficByLocationData.map((item, idx) => (
             <div
               key={idx}
