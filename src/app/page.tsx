@@ -1,7 +1,11 @@
-import React from "react";
+import StatsCards from "@/components/main-dashboard/StatsCards/StatsCards";
 
 const Dashboard = () => {
-  return <div>Dashboard</div>;
+  return (
+    <>
+      <StatsCards />
+    </>
+  );
 };
 
 export default Dashboard;

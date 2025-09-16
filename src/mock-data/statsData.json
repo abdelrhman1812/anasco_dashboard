@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Views",
+    "value": "721K",
+    "change": "+10.1%",
+    "isPositive": true
+  },
+  {
+    "id": 2,
+    "title": "Visits",
+    "value": "367K",
+    "change": "-0.03%",
+    "isPositive": false
+  },
+  {
+    "id": 3,
+    "title": "New Users",
+    "value": "1,156",
+    "change": "+15.03%",
+    "isPositive": true
+  },
+  {
+    "id": 4,
+    "title": "Active Users",
+    "value": "239K",
+    "change": "+6.08%",
+    "isPositive": true
+  }
+]

@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import DashboardSidebar from "@/components/shared/DasboardSiderbar/DasboardSiderbar";
-import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
+import { SidebarProvider } from "@/components/ui/sidebar";
+import TopNav from "@/components/shared/TopNav/TopNav";
+import NotificationsList from "@/components/main-dashboard/Notifications/NotificationsList";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,10 +33,13 @@ export default function RootLayout({
       >
         <SidebarProvider>
           <DashboardSidebar />
-          <main>
-            <SidebarTrigger />
+
+          <main className="flex-1 w-full p-4 overflow-y-auto">
+            <TopNav />
             {children}
           </main>
+
+          <NotificationsList />
         </SidebarProvider>
       </body>
     </html>
