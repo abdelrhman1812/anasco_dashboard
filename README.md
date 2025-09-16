@@ -48,5 +48,6 @@ Inside the `src` folder:
 
 ## Screenshot
 
-![image](./public/anasco_dashboard.png)
+![image](./public/dashboard.png)
+
 
