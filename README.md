@@ -43,4 +43,9 @@ Inside the `src` folder:
 
 [Live Demo](https://anasco-dashboard.vercel.app)
 
+
 ---
+
+## Screenshot
+
+![Dashboard Screenshot](/dashboard_screen.png)
